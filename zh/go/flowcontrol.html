@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>逻辑 | Code Docs</title>
+    <meta name="description" content="让你的生活变得简单">
+    
+    
+    <link rel="preload" href="/code-docs/assets/css/0.styles.51cd10b9.css" as="style"><link rel="preload" href="/code-docs/assets/js/app.542ab68e.js" as="script"><link rel="preload" href="/code-docs/assets/js/2.f5983905.js" as="script"><link rel="preload" href="/code-docs/assets/js/19.d7c28ab4.js" as="script"><link rel="prefetch" href="/code-docs/assets/js/10.826806a3.js"><link rel="prefetch" href="/code-docs/assets/js/11.5bd8f4ea.js"><link rel="prefetch" href="/code-docs/assets/js/12.808f4930.js"><link rel="prefetch" href="/code-docs/assets/js/13.8b1a6c33.js"><link rel="prefetch" href="/code-docs/assets/js/14.6a60230f.js"><link rel="prefetch" href="/code-docs/assets/js/15.3434ef20.js"><link rel="prefetch" href="/code-docs/assets/js/16.09145d2b.js"><link rel="prefetch" href="/code-docs/assets/js/17.5c5f17ac.js"><link rel="prefetch" href="/code-docs/assets/js/18.1744b663.js"><link rel="prefetch" href="/code-docs/assets/js/20.dd5a7219.js"><link rel="prefetch" href="/code-docs/assets/js/21.b16d4a2d.js"><link rel="prefetch" href="/code-docs/assets/js/22.e653068a.js"><link rel="prefetch" href="/code-docs/assets/js/23.d7483c6f.js"><link rel="prefetch" href="/code-docs/assets/js/24.f8e9a289.js"><link rel="prefetch" href="/code-docs/assets/js/25.54361724.js"><link rel="prefetch" href="/code-docs/assets/js/26.cf92e1f0.js"><link rel="prefetch" href="/code-docs/assets/js/27.c1f2caf6.js"><link rel="prefetch" href="/code-docs/assets/js/28.a5888582.js"><link rel="prefetch" href="/code-docs/assets/js/29.70a79293.js"><link rel="prefetch" href="/code-docs/assets/js/3.9c608930.js"><link rel="prefetch" href="/code-docs/assets/js/30.efe5954d.js"><link rel="prefetch" href="/code-docs/assets/js/31.0b9fcfd8.js"><link rel="prefetch" href="/code-docs/assets/js/32.c729ad70.js"><link rel="prefetch" href="/code-docs/assets/js/33.89a78bfe.js"><link rel="prefetch" href="/code-docs/assets/js/34.f809aeea.js"><link rel="prefetch" href="/code-docs/assets/js/35.ffd8e842.js"><link rel="prefetch" href="/code-docs/assets/js/36.da0f4a56.js"><link rel="prefetch" href="/code-docs/assets/js/37.6e6209b1.js"><link rel="prefetch" href="/code-docs/assets/js/38.b0879f1e.js"><link rel="prefetch" href="/code-docs/assets/js/39.de00b6a8.js"><link rel="prefetch" href="/code-docs/assets/js/4.c9aa43f1.js"><link rel="prefetch" href="/code-docs/assets/js/40.127db237.js"><link rel="prefetch" href="/code-docs/assets/js/41.28630eb5.js"><link rel="prefetch" href="/code-docs/assets/js/42.ff97c0f6.js"><link rel="prefetch" href="/code-docs/assets/js/43.508f025c.js"><link rel="prefetch" href="/code-docs/assets/js/44.161c7793.js"><link rel="prefetch" href="/code-docs/assets/js/45.2930795e.js"><link rel="prefetch" href="/code-docs/assets/js/46.02191808.js"><link rel="prefetch" href="/code-docs/assets/js/47.18fd2ec3.js"><link rel="prefetch" href="/code-docs/assets/js/48.a56cd9ba.js"><link rel="prefetch" href="/code-docs/assets/js/49.a38ccd55.js"><link rel="prefetch" href="/code-docs/assets/js/5.ddb89a4c.js"><link rel="prefetch" href="/code-docs/assets/js/50.c4b1b250.js"><link rel="prefetch" href="/code-docs/assets/js/51.60b9d287.js"><link rel="prefetch" href="/code-docs/assets/js/52.a80280aa.js"><link rel="prefetch" href="/code-docs/assets/js/53.63366141.js"><link rel="prefetch" href="/code-docs/assets/js/54.0c6a0b7e.js"><link rel="prefetch" href="/code-docs/assets/js/55.772e5320.js"><link rel="prefetch" href="/code-docs/assets/js/56.fb3a6ebe.js"><link rel="prefetch" href="/code-docs/assets/js/6.8eaceb3e.js"><link rel="prefetch" href="/code-docs/assets/js/7.8b8c606a.js"><link rel="prefetch" href="/code-docs/assets/js/8.7d08e1e1.js"><link rel="prefetch" href="/code-docs/assets/js/9.24b95cca.js">
+    <link rel="stylesheet" href="/code-docs/assets/css/0.styles.51cd10b9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/code-docs/zh/" class="home-link router-link-active"><!----> <span class="site-name">Code Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>基础</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/code-docs/zh/go/" class="sidebar-link">介绍</a></li><li><a href="/code-docs/zh/go/installation.html" class="sidebar-link">安装</a></li><li><a href="/code-docs/zh/go/convention.html" class="sidebar-link">约定</a></li><li><a href="/code-docs/zh/go/variables.html" class="sidebar-link">变量</a></li><li><a href="/code-docs/zh/go/functions.html" class="sidebar-link">函数</a></li><li><a href="/code-docs/zh/go/flowcontrol.html" class="active sidebar-link">逻辑</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/code-docs/zh/go/flowcontrol.html#for" class="sidebar-link">For</a></li><li class="sidebar-sub-header"><a href="/code-docs/zh/go/flowcontrol.html#if" class="sidebar-link">If</a></li><li class="sidebar-sub-header"><a href="/code-docs/zh/go/flowcontrol.html#switch" class="sidebar-link">Switch</a></li><li class="sidebar-sub-header"><a href="/code-docs/zh/go/flowcontrol.html#defer" class="sidebar-link">Defer</a></li></ul></li><li><a href="/code-docs/zh/go/moretypes.html" class="sidebar-link">更多类型</a></li><li><a href="/code-docs/zh/go/methods.html" class="sidebar-link">方法</a></li><li><a href="/code-docs/zh/go/concurrency.html" class="sidebar-link">并发</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>应用</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="逻辑"><a href="#逻辑" aria-hidden="true" class="header-anchor">#</a> 逻辑</h1> <h2 id="for"><a href="#for" aria-hidden="true" class="header-anchor">#</a> For</h2> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+  sum <span class="token operator">+=</span> i
+<span class="token punctuation">}</span>
+
+<span class="token keyword">for</span> <span class="token punctuation">;</span> sum <span class="token operator">&lt;</span> <span class="token number">1000</span><span class="token punctuation">;</span> <span class="token punctuation">{</span>
+  sum <span class="token operator">+=</span> sum
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 类似其他语言的 while (sum &lt; 1000)</span>
+<span class="token keyword">for</span> sum <span class="token operator">&lt;</span> <span class="token number">1000</span> <span class="token punctuation">{</span>
+  sum <span class="token operator">+=</span> sum
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 类似其他语言的 while (true)</span>
+<span class="token keyword">for</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 遍历Array或者Map</span>
+<span class="token keyword">for</span> k<span class="token punctuation">,</span> v <span class="token operator">:=</span> <span class="token keyword">range</span> kvs <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="if"><a href="#if" aria-hidden="true" class="header-anchor">#</a> If</h2> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">if</span> x <span class="token operator">&lt;</span> <span class="token number">0</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token function">sqrt</span><span class="token punctuation">(</span><span class="token operator">-</span>x<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">&quot;i&quot;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 可以创建临时变量 v</span>
+<span class="token keyword">if</span> v <span class="token operator">:=</span> math<span class="token punctuation">.</span><span class="token function">Pow</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span> v <span class="token operator">&lt;</span> lim <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> v
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;error: %s&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> v
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="switch"><a href="#switch" aria-hidden="true" class="header-anchor">#</a> Switch</h2> <p>无需像其他语言一样每个 <code>case</code> 下面都加break，语言层面自动支持。</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">switch</span> os <span class="token operator">:=</span> runtime<span class="token punctuation">.</span>GOOS<span class="token punctuation">;</span> os <span class="token punctuation">{</span>
+<span class="token keyword">case</span> <span class="token string">&quot;darwin&quot;</span><span class="token punctuation">:</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;OS X.&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">case</span> <span class="token string">&quot;linux&quot;</span><span class="token punctuation">:</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;Linux.&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">default</span><span class="token punctuation">:</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;%s.&quot;</span><span class="token punctuation">,</span> os<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">switch</span> time<span class="token punctuation">.</span>Saturday <span class="token punctuation">{</span>
+<span class="token keyword">case</span> today <span class="token operator">+</span> <span class="token number">0</span><span class="token punctuation">:</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;Today.&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">case</span> today <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">:</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;Tomorrow.&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">case</span> today <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">:</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;In two days.&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">default</span><span class="token punctuation">:</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;Too far away.&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">switch</span> <span class="token punctuation">{</span>
+<span class="token keyword">case</span> t<span class="token punctuation">.</span><span class="token function">Hour</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">12</span><span class="token punctuation">:</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;Good morning!&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">case</span> t<span class="token punctuation">.</span><span class="token function">Hour</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">17</span><span class="token punctuation">:</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;Good afternoon.&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">default</span><span class="token punctuation">:</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;Good evening.&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="defer"><a href="#defer" aria-hidden="true" class="header-anchor">#</a> Defer</h2> <p><code>defer</code> 语句在函数结束前自动调用，可以用于释放资源，比如数据库连接。</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token string">&quot;fmt&quot;</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">defer</span> fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;world&quot;</span><span class="token punctuation">)</span>
+
+	fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;hello&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次编辑时间: </span> <span class="time">9/15/2018, 9:46:37 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/code-docs/zh/go/functions.html" class="prev">
+          函数
+        </a></span> <span class="next"><a href="/code-docs/zh/go/moretypes.html">
+          更多类型
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/code-docs/assets/js/app.542ab68e.js" defer></script><script src="/code-docs/assets/js/2.f5983905.js" defer></script><script src="/code-docs/assets/js/19.d7c28ab4.js" defer></script>
+  </body>
+</html>

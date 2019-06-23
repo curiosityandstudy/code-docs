@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bash | Code Docs</title>
+    <meta name="description" content="让你的生活变得简单">
+    
+    
+    <link rel="preload" href="/code-docs/assets/css/0.styles.51cd10b9.css" as="style"><link rel="preload" href="/code-docs/assets/js/app.542ab68e.js" as="script"><link rel="preload" href="/code-docs/assets/js/2.f5983905.js" as="script"><link rel="preload" href="/code-docs/assets/js/8.7d08e1e1.js" as="script"><link rel="prefetch" href="/code-docs/assets/js/10.826806a3.js"><link rel="prefetch" href="/code-docs/assets/js/11.5bd8f4ea.js"><link rel="prefetch" href="/code-docs/assets/js/12.808f4930.js"><link rel="prefetch" href="/code-docs/assets/js/13.8b1a6c33.js"><link rel="prefetch" href="/code-docs/assets/js/14.6a60230f.js"><link rel="prefetch" href="/code-docs/assets/js/15.3434ef20.js"><link rel="prefetch" href="/code-docs/assets/js/16.09145d2b.js"><link rel="prefetch" href="/code-docs/assets/js/17.5c5f17ac.js"><link rel="prefetch" href="/code-docs/assets/js/18.1744b663.js"><link rel="prefetch" href="/code-docs/assets/js/19.d7c28ab4.js"><link rel="prefetch" href="/code-docs/assets/js/20.dd5a7219.js"><link rel="prefetch" href="/code-docs/assets/js/21.b16d4a2d.js"><link rel="prefetch" href="/code-docs/assets/js/22.e653068a.js"><link rel="prefetch" href="/code-docs/assets/js/23.d7483c6f.js"><link rel="prefetch" href="/code-docs/assets/js/24.f8e9a289.js"><link rel="prefetch" href="/code-docs/assets/js/25.54361724.js"><link rel="prefetch" href="/code-docs/assets/js/26.cf92e1f0.js"><link rel="prefetch" href="/code-docs/assets/js/27.c1f2caf6.js"><link rel="prefetch" href="/code-docs/assets/js/28.a5888582.js"><link rel="prefetch" href="/code-docs/assets/js/29.70a79293.js"><link rel="prefetch" href="/code-docs/assets/js/3.9c608930.js"><link rel="prefetch" href="/code-docs/assets/js/30.efe5954d.js"><link rel="prefetch" href="/code-docs/assets/js/31.0b9fcfd8.js"><link rel="prefetch" href="/code-docs/assets/js/32.c729ad70.js"><link rel="prefetch" href="/code-docs/assets/js/33.89a78bfe.js"><link rel="prefetch" href="/code-docs/assets/js/34.f809aeea.js"><link rel="prefetch" href="/code-docs/assets/js/35.ffd8e842.js"><link rel="prefetch" href="/code-docs/assets/js/36.da0f4a56.js"><link rel="prefetch" href="/code-docs/assets/js/37.6e6209b1.js"><link rel="prefetch" href="/code-docs/assets/js/38.b0879f1e.js"><link rel="prefetch" href="/code-docs/assets/js/39.de00b6a8.js"><link rel="prefetch" href="/code-docs/assets/js/4.c9aa43f1.js"><link rel="prefetch" href="/code-docs/assets/js/40.127db237.js"><link rel="prefetch" href="/code-docs/assets/js/41.28630eb5.js"><link rel="prefetch" href="/code-docs/assets/js/42.ff97c0f6.js"><link rel="prefetch" href="/code-docs/assets/js/43.508f025c.js"><link rel="prefetch" href="/code-docs/assets/js/44.161c7793.js"><link rel="prefetch" href="/code-docs/assets/js/45.2930795e.js"><link rel="prefetch" href="/code-docs/assets/js/46.02191808.js"><link rel="prefetch" href="/code-docs/assets/js/47.18fd2ec3.js"><link rel="prefetch" href="/code-docs/assets/js/48.a56cd9ba.js"><link rel="prefetch" href="/code-docs/assets/js/49.a38ccd55.js"><link rel="prefetch" href="/code-docs/assets/js/5.ddb89a4c.js"><link rel="prefetch" href="/code-docs/assets/js/50.c4b1b250.js"><link rel="prefetch" href="/code-docs/assets/js/51.60b9d287.js"><link rel="prefetch" href="/code-docs/assets/js/52.a80280aa.js"><link rel="prefetch" href="/code-docs/assets/js/53.63366141.js"><link rel="prefetch" href="/code-docs/assets/js/54.0c6a0b7e.js"><link rel="prefetch" href="/code-docs/assets/js/55.772e5320.js"><link rel="prefetch" href="/code-docs/assets/js/56.fb3a6ebe.js"><link rel="prefetch" href="/code-docs/assets/js/6.8eaceb3e.js"><link rel="prefetch" href="/code-docs/assets/js/7.8b8c606a.js"><link rel="prefetch" href="/code-docs/assets/js/9.24b95cca.js">
+    <link rel="stylesheet" href="/code-docs/assets/css/0.styles.51cd10b9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/code-docs/zh/" class="home-link router-link-active"><!----> <span class="site-name">Code Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Bash</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/code-docs/zh/bash.html#网络" class="sidebar-link">网络</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/code-docs/zh/bash.html#文件" class="sidebar-link">文件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/code-docs/zh/bash.html#查看" class="sidebar-link">查看</a></li><li class="sidebar-sub-header"><a href="/code-docs/zh/bash.html#创建" class="sidebar-link">创建</a></li><li class="sidebar-sub-header"><a href="/code-docs/zh/bash.html#搜索" class="sidebar-link">搜索</a></li><li class="sidebar-sub-header"><a href="/code-docs/zh/bash.html#权限" class="sidebar-link">权限</a></li><li class="sidebar-sub-header"><a href="/code-docs/zh/bash.html#删除" class="sidebar-link">删除</a></li></ul></li><li><a href="/code-docs/zh/bash.html#可执行文件" class="sidebar-link">可执行文件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/code-docs/zh/bash.html#时间" class="sidebar-link">时间</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/code-docs/zh/bash.html#其他" class="sidebar-link">其他</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="bash"><a href="#bash" aria-hidden="true" class="header-anchor">#</a> Bash</h1> <p>基本命令有 <code>ls</code>，<code>dir</code>，<code>mkdir</code>，<code>ll</code>，<code>mv</code>，<code>cp</code>，<code>cd</code>，<code>rm</code>，<code>curl</code>，<code>pwd</code>。</p> <p><code>man &lt;command&gt;</code> 命令查看帮助信息。</p> <h2 id="网络"><a href="#网络" aria-hidden="true" class="header-anchor">#</a> 网络</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>ipconfig getifaddr en0 <span class="token comment"># 获取本机IP</span>
+
+<span class="token function">lsof</span> -i :8080 <span class="token comment"># 找出使用了8080端口号的进程</span>
+
+<span class="token function">ssh</span> root@<span class="token operator">&lt;</span>remote-ip<span class="token operator">&gt;</span> <span class="token comment"># 登录远程服务器</span>
+
+<span class="token function">scp</span> -r root@<span class="token operator">&lt;</span>remote-ip<span class="token operator">&gt;</span>:/tmp/app.log ~/Downloads <span class="token comment"># 将远程服务器上的文件下载到本机Downloads目录下</span>
+
+<span class="token function">scp</span> ~/Downloads/go.tar.gz root@<span class="token operator">&lt;</span>remote-ip<span class="token operator">&gt;</span>:/tmp <span class="token comment"># 将本机文件上传到远程服务器上</span>
+</code></pre></div><h2 id="文件"><a href="#文件" aria-hidden="true" class="header-anchor">#</a> 文件</h2> <h3 id="查看"><a href="#查看" aria-hidden="true" class="header-anchor">#</a> 查看</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">tail</span> –f /tmp/app.log <span class="token comment"># 监听app.log并打印内容，用于查看log</span>
+
+<span class="token function">tail</span> –5 /tmp/app.log <span class="token comment"># 打印app.log最后5行内容</span>
+
+<span class="token function">tail</span> –n +50 /tmp/app.log <span class="token comment"># 打印app.log从第50行开始的内容</span>
+
+<span class="token function">cat</span> /tmp/app.log <span class="token operator">|</span> <span class="token function">grep</span> graphql <span class="token comment"># 列出app.log含有graphql的片段</span>
+</code></pre></div><h3 id="创建"><a href="#创建" aria-hidden="true" class="header-anchor">#</a> 创建</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token keyword">echo</span> <span class="token string">'hello'</span> <span class="token operator">&gt;</span> test.txt <span class="token comment"># 往test.txt写入hello</span>
+
+<span class="token keyword">echo</span> <span class="token string">'world'</span> <span class="token operator">&gt;&gt;</span> test.txt <span class="token comment"># 往test.txt添加world</span>
+
+<span class="token function">mkdir</span> -p logs <span class="token comment"># 创建logs目录，目录已存在不报错</span>
+</code></pre></div><h3 id="搜索"><a href="#搜索" aria-hidden="true" class="header-anchor">#</a> 搜索</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">grep</span> -r graphql <span class="token keyword">.</span> <span class="token comment"># 列出当前目录下文件含有graphql字眼的文件</span>
+
+<span class="token function">find</span> ./ -name <span class="token string">'*.go'</span> <span class="token comment"># 找出当前目录下所有go文件</span>
+
+<span class="token function">fgrep</span> <span class="token string">'2018-07-04'</span> dev.log -c <span class="token comment"># 搜索dev.log文件里面含有`2018-07-04`的行的计数</span>
+<span class="token function">fgrep</span> <span class="token string">'2018-07-04'</span> dev.log <span class="token operator">|</span> <span class="token function">grep</span> <span class="token string">'error'</span> -c <span class="token comment"># 在上面命令的基础上增加行内含有`error`的条件</span>
+</code></pre></div><h3 id="权限"><a href="#权限" aria-hidden="true" class="header-anchor">#</a> 权限</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">chown</span> -r www-data:www-data logs <span class="token comment"># 更改文件Owner</span>
+
+<span class="token function">chmod</span> 600 aws-dev.pem <span class="token comment"># 设置为拥有者可读写。777表示所有人可以读写及执行。</span>
+</code></pre></div><h3 id="删除"><a href="#删除" aria-hidden="true" class="header-anchor">#</a> 删除</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">rm</span> ./test.txt <span class="token comment"># 删除test.txt文件</span>
+<span class="token function">rm</span> -rfv ./node_modules <span class="token comment"># 删除整个node_modules目录</span>
+</code></pre></div><h2 id="可执行文件"><a href="#可执行文件" aria-hidden="true" class="header-anchor">#</a> 可执行文件</h2> <p>这是一个简单的含有if和外传变量的bash文件代码示例。保存为 <code>run.sh</code> 文件后执行 <code>bash run.sh test</code> 命令。</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token shebang important">#!/bin/bash</span>
+env<span class="token operator">=</span><span class="token variable">$1</span> <span class="token comment"># example: test, staging, sandbox</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token string">&quot;<span class="token variable">$env</span>&quot;</span> <span class="token operator">=</span> <span class="token string">&quot;&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token keyword">echo</span> <span class="token string">&quot;'env' should be test, staging or sandbox&quot;</span>
+    <span class="token keyword">exit</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">echo</span> <span class="token variable">$env</span>
+</code></pre></div><h2 id="时间"><a href="#时间" aria-hidden="true" class="header-anchor">#</a> 时间</h2> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">date</span> +%s <span class="token comment"># Timestamp: 1535723215 </span>
+
+<span class="token function">date</span> -u +<span class="token string">&quot;%Y-%m-%dT%H:%M:%SZ&quot;</span> <span class="token comment"># UTC: 2018-08-31T13:50:55Z</span>
+
+<span class="token function">date</span> +%Y-%m-%dT%H:%M:%S%z <span class="token comment"># Local: 2018-08-31T21:52:17+0800</span>
+</code></pre></div><h2 id="其他"><a href="#其他" aria-hidden="true" class="header-anchor">#</a> 其他</h2> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">su</span> <span class="token comment"># 切换到root权限</span>
+
+<span class="token function">ln</span> -s /usr/local/etc/php/7.1/php.ini /etc/php <span class="token comment"># php.ini 链到 /etc/php 目录下</span>
+
+<span class="token function">ps</span> aux <span class="token operator">|</span> <span class="token function">grep</span> php <span class="token comment"># 找出还有php字眼的进程</span>
+
+<span class="token function">kill</span> 16969 <span class="token comment"># 干掉PID为16969的进程</span>
+
+<span class="token function">history</span> <span class="token operator">|</span> <span class="token function">grep</span> php <span class="token comment"># 查看最近含有php字眼的命令记录</span>
+
+<span class="token function">whereis</span> openssl
+
+<span class="token function">which</span> nginx
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次编辑时间: </span> <span class="time">9/15/2018, 9:46:37 AM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/code-docs/assets/js/app.542ab68e.js" defer></script><script src="/code-docs/assets/js/2.f5983905.js" defer></script><script src="/code-docs/assets/js/8.7d08e1e1.js" defer></script>
+  </body>
+</html>
